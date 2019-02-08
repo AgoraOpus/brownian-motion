@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=750, initial-scale=1">
+
+    <title>Random walk with Brownian motion</title>
+
+    <link href="/assets/css/random-walk.css" rel="stylesheet">
+    <script src="https://code.highcharts.com/6.1.4/highcharts.js"></script>
+    <script src="/assets/js/dark-unica-custom.js"></script>
+    <script src="/assets/js/compiled/agoraopus_random_walk.js" type="text/javascript"></script>
+    <script>
+        window.onload = function () {
+            agoraopus_random_walk.core.run();
+        }
+    </script>
+</head>
+<body>
+<div class="fork-me">
+    <a href="https://github.com/AgoraOpus/brownian-motion">
+        <img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_orange_ff7600.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+    </a>
+</div>
+
+<h1>Random walk with Brownian motion</h1>
+
+<div id="app"></div>
+
+<div class="content">
+    <p>The above chart show the movements of a Brownian motion, using the settings as adjusted by the two sliders. Any change to the mu (μ) or sigma (σ) values will automatically get applied to future movements on the chart.</p>
+    <p>A Brownian motion is defined by the below formula, and it's the mu and sigma parameters we can change. Changing these will either adjust the drift (mu) or the volatility (sigma).</p>
+    <div class="img-div"><img src="/assets/img/brownianmotion1.png"></div>
+    <p>There are many use cases for a Brownian motion, one of which is to model the price movement of a financial asset.</p>
+    <p>This page was made available as part of a blog post diving into potential extensions we could make to the above formula while trying to make a better model for stock price movements by introducing a time dependent drift.</p>
+    <h2><a href="https://portfolio.construction/blog/2019/02/a-distracted-walk-down-wall-street">A distracted walk down Wall Street</a></h2>
+    <p class="footer">Copyright © 2019 AgoraOpus LTD</p>
+</div>
+</body>
+</html>

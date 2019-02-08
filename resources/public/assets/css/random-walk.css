@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Unica+One');
+
+body {
+    color: #f9f9f9;
+    background-color: #222;
+    font-family: 'Karla', sans-serif;
+    width: 710px;
+}
+
+h1, h2, h3 {
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+}
+
+.fork-me {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.chart {
+    width: 700px;
+}
+
+.control {
+    width: 700px;
+}
+
+.control-label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.control-range {
+    display: inline !important;
+    width: 500px !important;
+}
+
+.content {
+    width: 700px;
+    padding: 20px;
+}
+
+.content > .img-div {
+    width: 700px;
+    text-align: center;
+}
+
+.content > a, a:link, a:visited, a:hover, a:active {
+    color: #d58512;
+    text-decoration: none;
+}
+
+.content > .footer {
+    font-size: x-small;
+}
