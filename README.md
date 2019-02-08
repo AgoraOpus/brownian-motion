@@ -4,7 +4,7 @@ This is an implementation of a [random walk](https://en.wikipedia.org/wiki/Rando
 
 ![Brownian motion](https://agoraopus.github.io/assets/img/brownianmotion2.png)
 
-A live demo is available at https://agoraopus.github.io/brownian-motion
+A live demo is available at https://agoraopus.github.io/brownian-motion/index.html
 
 It allows you to modify the μ (mu) and σ (sigma) directly using the range sliders below the graph. The updated values are used from there on automatically.
 
